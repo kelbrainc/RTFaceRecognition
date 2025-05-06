@@ -51,6 +51,7 @@ rfrp_project/
 1. **Clone** the repo  
    ```bash
    git clone https://github.com/kelbrainc/RTFaceRecognition.git
+   cd RTFaceRecognition
    cd rfrp_project
 
 2. **Create environment**
