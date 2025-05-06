@@ -1,0 +1,11 @@
+opencv-python
+face_recognition
+dlib
+streamlit
+streamlit-webrtc
+python-pptx
+psutil
+pillow
+pandas
+pytest
+av

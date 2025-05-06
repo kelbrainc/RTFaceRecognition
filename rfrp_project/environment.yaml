@@ -1,0 +1,20 @@
+#environment.yml
+name: facerecog
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - opencv               # conda-forge’s OpenCV package
+  - dlib
+  - face_recognition     # available on conda-forge
+  - psutil
+  - pillow
+  - pandas
+  - pytest
+  - pip                  # ensure we can install the rest via pip
+  - pip:
+    - streamlit
+    - streamlit-webrtc
+    - python-pptx
+    - av
